@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
-
+  s.dependency 'GPUImage'
   # s.requires_arc = true
 
   s.swift_versions = ['5.1', '5.2']
